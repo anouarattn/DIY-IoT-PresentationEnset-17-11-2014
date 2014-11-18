@@ -1,8 +1,7 @@
-// http://www.electroschematics.com
-int in1=13;
-int in2=22;
-int in3 =12;
-int in4 = 8;
+int in1=32;
+int in2=28;
+int in3 =24;
+int in4 =22;
 
 void setup() {
 Serial.begin(9600);
@@ -22,7 +21,7 @@ void loop() {
      }    
     else if(digitalRead(in2) == LOW) 
       {
-        Serial.println("niveau2 : verre à moitié plein");
+        Serial.println("niveau2 : verre à moitie plein");
      } 
      else if(digitalRead(in1) == LOW) {
                Serial.println("niveau1 : verre presque vide");
